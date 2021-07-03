@@ -59,7 +59,7 @@ void ArrayStack<T>::pop()
     }
     else
     {
-         int element = value[topIndex--];
+        value[topIndex--];
     }
 }
 
