@@ -1,4 +1,3 @@
-#pragma once
 #include <iostream>
 #define MAX 10
 
