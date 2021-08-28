@@ -59,7 +59,7 @@ int LinkedList::RemoveFromHead()
     {
         Node *nodeToDelete = HEAD;
         int data = nodeToDelete->info;
-        this->HEAD = nodeToDelete->next;
+        HEAD = nodeToDelete->next;
 
         if (HEAD == nullptr)
         {
